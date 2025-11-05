@@ -5,16 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lookscout Website App Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/lookscout.css">
 </head>
 
 <body>
   <!-- Header -->
-  <header>
+  <header class="container">
     <div class="header-left">
       <div class="header-logo">
-        <a href="#"><img src="" alt="Logo"></a>
+        <a href="#"><img src="assets/img/Lookscout.svg" alt="Logo"></a>
       </div>
-      <div>
+      <div class="header-left-list">
         <ul>
           <li><a href="#">Ev</a></li>
           <li><a href="#">Ürünlerimiz</a></li>
@@ -28,23 +34,31 @@
       <a href="#">Giriş Yap</a>
       <a href="">Kayıt ol</a>
     </div>
+
+    <div class="header-right-img">
+      <img src="assets/img/Button.svg" alt="Menu button">
+    </div>
   </header>
   <!-- Header End -->
 
   <!-- Hero Section -->
-  <section>
-    <div class="hero-left">
+  <section class="hero">
+    <div class="mobile-hero-img">
+      <img src="assets/img/mobile/hero-mobile.png" alt="">
+    </div>
+    <div class="hero-left container">
       <div class="hero-content">
         <h1>Süper Güçlü Tasarım İş Akışınız.</h1>
         <p>Müşterilerimizin beklentilerini aşmanın mümkün olmadığı söylendi. Biz tekerleği yeniden icat etmedik, onu
           geliştirmeye karar verdik.</p>
         <a href="#">Başlayın</a>
         <h5>Bizi kimler destekliyor</h5>
-
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+          <div class="hero-support-images">
+        <img src="assets/img/gitlab.svg" alt="Gitlab Logo">
+        <img src="assets/img/slack.svg" alt="Slack Logo">
+        <img src="assets/img/netflix.svg" alt="Netflix Logo">
+        <img src="assets/img/paypal.svg" alt="Paypal Logo">
+        </div>
       </div>
 
       <div class="hero-right">
