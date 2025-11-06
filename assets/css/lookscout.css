@@ -302,7 +302,6 @@ header {
 
 
 /* Customer Section */
-
 .customer h2 {
   font-weight: 700;
   font-style: Bold;
@@ -322,4 +321,212 @@ header {
   letter-spacing: -0.1px;
   text-align: center;
   margin-bottom: 40px;
+}
+
+/* Customer Section End */
+
+/* Lookscout Section */
+.lookscout-bg {
+  border-radius: 5px;
+  background-color: #F8F9FB;
+}
+
+.lookscout-content {
+  padding-inline: 16px;
+  margin-bottom: 64px;
+}
+
+.lookscout-content img {
+  margin-top: 21px;
+  margin-bottom: 16px;
+}
+
+.lookscout-content p {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  color: #272D37;
+}
+
+.lookscout-content h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.user-info {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5F6D7E;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-img {
+  display: inline
+}
+
+.user-content {
+  flex-direction: column;
+}
+
+/* Lookscout End */
+
+
+/* Latest Blog */
+.blog h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.blog p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #5F6D7E;
+  margin-bottom: 24px;
+}
+
+/* Latest Blog End */
+
+
+/* Image card section */
+.card-img {
+  margin-bottom: 12px;
+}
+
+.image-card h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.image-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5F6D7E;
+  margin-bottom: 24px;
+}
+
+
+.card-user-data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 33px;
+}
+
+.card-user-img {
+  display: inline
+}
+
+.card-user-content {
+  flex-direction: column;
+}
+
+.user-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  color: #5F6D7E;
+}
+
+.card-user-content h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.card-user-info {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5F6D7E;
+}
+
+/* Image card section end */
+
+
+/* Proud Section */
+.proud h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.proud p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #5F6D7E;
+  margin-bottom: 32px;
+}
+
+/* Proud Section End */
+
+
+/* Brand Logos Section */
+.brand-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 36px;
+}
+
+/* Brand Logos Section End */
+
+
+/* Industry section */
+.industry-bg {
+  background-color: #FAFBFC;
+}
+
+.industry-text h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #437EF7;
+  padding-top: 32px;
+  margin-bottom: 8px;
+}
+
+.industry-text h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #272D37;
+  margin-bottom: 16px;
 }
