@@ -203,7 +203,7 @@ header {
   margin-bottom: 32px;
 }
 
-.chair-card{
+.chair-card {
   display: flex;
   gap: 16px;
 }
@@ -219,7 +219,7 @@ header {
   height: 48px;
 }
 
-.chair-card-content{
+.chair-card-content {
   margin-bottom: 32px;
 }
 
@@ -257,11 +257,12 @@ header {
 
 
 /* Table Section */
-.table-section{
+.table-section {
   background-color: #151B28;
+  margin-bottom: 32px;
 }
 
-.table-chair-img{
+.table-chair-img {
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -295,4 +296,30 @@ header {
   display: flex;
   gap: 6px;
   margin-bottom: 32px;
+}
+
+/* Table Section End */
+
+
+/* Customer Section */
+
+.customer h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #272D37;
+  margin-bottom: 12px;
+}
+
+.customer p {
+  color: #5F6D7E;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  margin-bottom: 40px;
 }
