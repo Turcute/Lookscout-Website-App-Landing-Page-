@@ -530,3 +530,48 @@ header {
   color: #272D37;
   margin-bottom: 16px;
 }
+
+.industry-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.industry-form input {
+  border: 1px solid #dae0e6;
+  width: 343px;
+  height: 46px;
+  border-radius: 6px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.industry-btn {
+  background-color: #437EF7;
+  width: 343px;
+  height: 48px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.industry-checkbox{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  margin-bottom: 32px; 
+}
+
+.industry-checkbox a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 12px;
+  margin-bottom: 16px;
+}
