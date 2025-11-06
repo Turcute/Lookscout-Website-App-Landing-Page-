@@ -39,6 +39,7 @@ header {
 /* Hero */
 .hero {
   background-color: #2b63d9;
+  width: 375px;
 }
 
 .mobile-hero-img {
@@ -123,9 +124,10 @@ header {
 /* Message section end */
 
 /* Cards */
-.card{
+.card {
   margin-bottom: 40px;
 }
+
 .card-img-bg {
   display: flex;
   align-items: center;
@@ -165,6 +167,132 @@ header {
   color: #437EF7;
 }
 
-.card a img{
+.card a img {
   display: block;
+}
+
+/* Cards End */
+
+
+/* Redefining Section */
+.redefining h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.redefining p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #5F6D7E;
+  margin-bottom: 32px;
+}
+
+/* Redefining end */
+
+
+/* Chair Section */
+.chair-img {
+  margin-bottom: 32px;
+}
+
+.chair-card{
+  display: flex;
+  gap: 16px;
+}
+
+.chair-icon-bg {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #437EF7;
+  border-radius: 30px;
+  width: 48px;
+  height: 48px;
+}
+
+.chair-card-content{
+  margin-bottom: 32px;
+}
+
+.chair-card-content h3 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  margin-bottom: 8px;
+  color: #272D37;
+}
+
+.chair-card-content p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #5F6D7E;
+  margin-bottom: 8px;
+}
+
+.chair-card-content a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #437EF7;
+  text-decoration: none;
+  display: flex;
+  gap: 6px;
+}
+
+/* Chair end */
+
+
+/* Table Section */
+.table-section{
+  background-color: #151B28;
+}
+
+.table-chair-img{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.table-card-content h3 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.table-card-content p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #A5ACBA;
+  margin-bottom: 8px;
+}
+
+.table-card-content a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #437EF7;
+  text-decoration: none;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 32px;
 }
