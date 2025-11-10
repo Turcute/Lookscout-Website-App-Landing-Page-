@@ -44,16 +44,18 @@ header {
   width: 100%
 }
 
+
 .mobile-hero-img {
   width: 100%;
-  margin-left: 15px;
+  max-width: 375px;
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 
 .mobile-hero-img img {
   width: 100%;
-  max-width: 359px;
   height: auto;
+  padding-left: 16px;
 }
 
 
