@@ -707,9 +707,10 @@ li a {
   margin-bottom: 16px;
 }
 
-.footer-bottom-logos{
+.footer-bottom-logos {
   display: flex;
   justify-content: space-around;
   margin-bottom: 32px;
 }
+
 /* Footer End */
